@@ -1,5 +1,13 @@
-# From Spreadsheet to AdHocDoc
+# From Spreadsheet to Ad-Hoc-Doc 1.0
+
+## Background: Fashion Archives Need Different Solutions
+Fashion archives face unique challenges. Unlike books that display titles on spines, garments hang in protective bags where identification relies entirely on external tags. This project addresses that specific need by automating the creation of physical bag tags that connect digital records to physical objects.
+
+Following DACS principles for non-book materials, these tags enable quick identification without handling fragile textiles. Whether using professional photography or simple phone captures, the goal is immediate recognition: "Is this the purple beaded dress?" becomes answerable at a glance.
+
 ## Label Generator Overview
+This workflow creates physical bag tag labels for hanging garments in fashion archives...
+[continue with existing text]
 
 This workflow creates physical bag tag labels for hanging garments in fashion archives. Our implementation uses the python-docx library, following the official documentation at https://python-docx.readthedocs.io/en/latest/. We specifically utilize three core components:
 - [table creation](https://python-docx.readthedocs.io/en/latest/user/tables.html) for the 2x2 label grid 
