@@ -22,7 +22,12 @@ Start here: [Introduction](tutorial/00-introduction.md)
 - Outputs print-ready Word document
 
 ## 📊 Sample Data
-Use the included [sample CSV](data/mcfadden_garments_labels.csv) with 30 garments from a fictional Mary McFadden collection.
+Use the included dataset in [Dataset/01_Garment Bag Tag/](Dataset/01_Garment%20Bag%20Tag/) containing:
+- `Garment_Bag_Tag_Dataset.csv` with 30 garment records
+- 27 sample images
+- Usage rights documentation
+
+Please review the [Dataset Usage Rights](Dataset/01_Garment%20Bag%20Tag/Dataset_Usage_Rights.md) before using any images.
 
 ## 🚀 Quick Start
 1. Open Google Colab
