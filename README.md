@@ -1,12 +1,16 @@
 # From Spreadsheet to Ad-Hoc-Doc 1.0
 
+INFO664: Programming for Cultural Heritage  
+Pratt Institute, Fall 2025  
+Created by Kelsey Kiantoro
+
 ## Background: Fashion Archives Need Different Solutions
-Fashion archives face unique challenges. Unlike books that display titles on spines, garments hang in protective bags where identification relies entirely on external tags. This project addresses that specific need by automating the creation of physical bag tags that connect digital records to physical objects. Opening each bag to identify contents risks damage to fragile textiles and is incredibly time-consuming. External bag tags allow staff to browse collections visually—just like you'd scan book spines on a shelf.
+Fashion archives face unique challenges. Unlike books that display titles on spines, garments hang in protective bags where identification relies entirely on external tags. This project addresses that specific need by automating the creation of physical bag tags that connect digital records to physical objects. Opening each bag to identify contents risks damage to fragile textiles and is incredibly time-consuming. External bag tags allow staff to browse collections visually, just like book spines on a shelf.
 
 ![](https://content.api.news/v3/images/bin/f4f71cf8ee82544704e98402494d9460?width=1024)
 *Image credit: Victoria and Albert Museum. From: 5 expert tips on how to store clothes. [vogue.com.au](https://www.vogue.com.au/fashion/news/5-expert-tips-on-how-to-store-clothes/image-gallery/f3009b1b0da6c9bc2ee15f09eb75c0c8?pos=1&page=2)*
 
-**About the photos:** These tags don't need museum-quality photography. A quick phone photo that shows color, silhouette, and key details is perfect. The goal is identification, not publication. If staff can look at the image and confirm "yes, this is the purple beaded dress," the tag works. Professional photography can wait for exhibitions or catalogs—daily operations need practical solutions.
+**About the photos:** These tags don't need museum-quality photography. A quick phone photo that shows color, silhouette, and key details is perfect. The goal is identification, not publication. If staff can look at the image and confirm "yes, this is the purple beaded dress," the tag works. Catalogs—daily operations need practical solutions.
 
 The traditional method of creating these tags—typing each row individually in Word—is painfully slow. For 30 garments, this means:
 ```mermaid
@@ -31,7 +35,7 @@ graph LR
 This tutorial automates that entire process. What took 3-4 hours now takes 5 minutes.
 ## Label Generator Overview
 This workflow creates physical bag tag labels for hanging garments in fashion archives. Our implementation uses the python-docx library, following the official documentation at https://python-docx.readthedocs.io/en/latest/. We specifically utilize three core components:
-- [table creation](https://python-docx.readthedocs.io/en/latest/user/tables.html) for the 2x2 label grid 
+- [table creation](https://python-docx.readthedocs.io/en/latest/user/tables.html) for the 2x2 label grid in common letter size paper
 - [text formatting](https://python-docx.readthedocs.io/en/latest/user/text.html) for proper hierarchy and emphasis 
 - [document structure](https://python-docx.readthedocs.io/en/latest/user/documents.html) for page management
 
@@ -64,9 +68,3 @@ Please review the [Dataset Usage Rights](Dataset/01_Garment%20Bag%20Tag/Dataset_
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 <img src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" alt="CC BY-NC 4.0" style="max-width: 100%;">
-
----
-
-INFO664: Programming for Cultural Heritage  
-Pratt Institute, Fall 2024  
-Created by Kelsey Kiantoro
