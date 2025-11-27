@@ -43,14 +43,14 @@ We chose the python-docx library because it is easy to use and has clear instruc
 
 ### Working with Different Dataset Sizes
 Before running the label generator, think about how many items you have and plan accordingly:
-- For <ins>small collections</ins> (fewer than four items): You will see empty spaces on the label sheet. This is normal. You can wait and batch more items together or change the layout to a 1x2 grid.
+- For <ins>small collections</ins> (fewer than four items): You will see empty spaces on the label sheet. This is normal. You can wait and batch more items together.
 - For <ins>medium collections</ins> (about 27 items, as in our example): Use the standard 2x2 layout. This will create multiple pages automatically. We recommended having an even number; the sample is within an odd number for example purposes.
 - For <ins>large collections</ins> (100 or more items): Process your data in batches of 100 items. Each batch is written to its own output file for printing. This helps avoid memory issues.
 
 This code automatically figures out how many pages are needed and handles cases where the last page isn’t complete. This means you don’t need to change any code to work with different collection sizes.
 
 ## 📖 Tutorial
-Start here: [Introduction](https://github.com/kianoding/FromSpreadsheettoAdHocDoc/blob/main/Introduction.md)
+Start here: [Introduction](Tutorial/Introduction.md)
 To get started quickly, open Google Colab, upload the CSV file, run the script, and then download your labels.
 
 ## 🎯 What This Does
