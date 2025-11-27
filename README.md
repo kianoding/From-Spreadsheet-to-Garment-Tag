@@ -1,7 +1,10 @@
 # From Spreadsheet to AdHocDoc
 ## Label Generator Overview
 
-This workflow creates physical bag tag labels for hanging garments in fashion archives. Our implementation is built using the python-docx library, following the official documentation at https://python-docx.readthedocs.io/en/latest/. We specifically utilize three core components: table creation for the 2x2 label grid (https://python-docx.readthedocs.io/en/latest/user/tables.html), text formatting for proper hierarchy and emphasis (https://python-docx.readthedocs.io/en/latest/user/text.html), and document structure for page management (https://python-docx.readthedocs.io/en/latest/user/documents.html).
+This workflow creates physical bag tag labels for hanging garments in fashion archives. Our implementation uses the python-docx library, following the official documentation at https://python-docx.readthedocs.io/en/latest/. We specifically utilize three core components:
+- [table creation](https://python-docx.readthedocs.io/en/latest/user/tables.html) for the 2x2 label grid 
+- [text formatting](https://python-docx.readthedocs.io/en/latest/user/text.html) for proper hierarchy and emphasis 
+- [document structure](https://python-docx.readthedocs.io/en/latest/user/documents.html) for page management
 
 The python-docx library was chosen for its straightforward API and excellent documentation, making it accessible for archivists who are new to programming. By following established patterns from the official tutorials, we ensure our code remains maintainable and adaptable for different collections.
 
