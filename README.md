@@ -14,7 +14,7 @@ However, if you're working with collections of 100 or more items, we recommend p
 The code we provide handles all these scenarios gracefully, automatically calculating the number of pages needed and managing partial pages when your item count isn't divisible by four. This flexibility ensures the workflow adapts to real-world collection sizes without requiring code modifications.
 
 ## 📖 Tutorial
-Start here: [Introduction](tutorial/00-introduction.md)
+Start here: [Introduction]([tutorial/00-introduction.md](https://github.com/kianoding/FromSpreadsheettoAdHocDoc/blob/main/Introduction.md))
 
 ## 🎯 What This Does
 - Reads garment data from CSV
