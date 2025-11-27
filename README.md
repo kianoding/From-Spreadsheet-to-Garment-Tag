@@ -50,7 +50,7 @@ Before running the label generator, think about how many items you have and plan
 This code automatically figures out how many pages are needed and handles cases where the last page isn’t complete. This means you don’t need to change any code to work with different collection sizes.
 
 ## 📖 Tutorial
-Start here: [Introduction]([tutorial/00-introduction.md](https://github.com/kianoding/FromSpreadsheettoAdHocDoc/blob/main/Introduction.md))
+Start here: [Introduction](https://github.com/kianoding/FromSpreadsheettoAdHocDoc/blob/main/Introduction.md)
 To get started quickly, open Google Colab, upload the CSV file, run the script, and then download your labels.
 
 ## 🎯 What This Does
