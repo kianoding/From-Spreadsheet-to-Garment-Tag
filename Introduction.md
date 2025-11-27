@@ -10,4 +10,23 @@ Our implementation builds on the python-docx library (https://python-docx.readth
 - *Time Required*: 90 minutes
 - *Skill Level*: Beginner (no coding experience needed)
 - *Tools*: Google Colab (free, no installation required)
-- *Dataset Considerations*: This tutorial handles collections of any size. Small collections under 4 items will have empty label spaces. Medium collections like our 30-item example work perfectly. Large collections over 100 items should be processed in batches to avoid memory issues.
+- *Dataset Considerations*: This tutorial handles collections of any size. Small collections under 4 items will have empty label spaces. Medium collections like our 30-item example work perfectly. Large collections of over 100 items should be processed in batches to avoid memory issues.
+
+------
+### Chapter 1: Setup
+Step 1: Open Google Colab
+> Go to https://colab.research.google.com
+Sign in with your Google account
+Click "New Notebook"
+
+Step 2: Upload Your Data
+> Click the folder icon on the left sidebar
+Click the upload icon
+Upload 'Garment Bag Tag_Dataset.csv'
+
+Step 3: Install Libraries
+```ruby
+# Run this first
+!pip install python-docx pandas
+```
+You should see installation messages. 
