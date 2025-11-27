@@ -12,7 +12,7 @@ Fashion archives face unique challenges. Unlike books that display titles on spi
 
 **About the photos:** These tags don't need museum-quality photography. A quick phone photo that shows color, silhouette, and key details is perfect. The goal is identification, not publication. If staff can look at the image and confirm "yes, this is the purple beaded dress," the tag works. Catalogs—daily operations need practical solutions.
 
-The traditional method of creating these tags—typing each row individually in Word—is painfully slow. For 30 garments, this means:
+The traditional method of creating these tags > typing each row individually in Word, is painfully slow. For 30 garments, this means:
 ```mermaid
 graph LR
     %% Define the Top 3 Steps (Nodes A, B, C)
@@ -31,8 +31,8 @@ graph LR
     %% Adjust styling for the loop annotation (optional: makes the loop line dotted)
     linkStyle 4 stroke-dasharray: 5 5;
 ```
+This tutorial automates that entire process. What took 3-4 hours now takes 5 minutes (hopefully).
 
-This tutorial automates that entire process. What took 3-4 hours now takes 5 minutes.
 ## Label Generator Overview
 This workflow creates physical bag tag labels for hanging garments in fashion archives. Our implementation uses the python-docx library, following the official documentation at https://python-docx.readthedocs.io/en/latest/. We specifically utilize three core components:
 - [table creation](https://python-docx.readthedocs.io/en/latest/user/tables.html) for the 2x2 label grid in common letter size paper
