@@ -16,7 +16,7 @@ flowchart LR
     
     Choice -->|NO| Loop[Open bag → Check → Close]
     Loop --> Loop
-    Loop --> Hours[Hours searching]
+    Loop --> Minutes[Minutes searching]
     Hours --> Done[with ~5 minutes zipping the bags]
     
     Choice -->|YES| Scan[Scan tags]
@@ -26,7 +26,7 @@ flowchart LR
     style Start fill:#000,stroke:#fff,color:#fff
     style Choice fill:#000,stroke:#fff,color:#fff
     style Loop fill:#000,stroke:#fff,color:#fff
-    style Hours fill:#000,stroke:#fff,color:#fff
+    style Minutes fill:#000,stroke:#fff,color:#fff
     style Scan fill:#000,stroke:#fff,color:#fff
     style Pull fill:#000,stroke:#fff,color:#fff
     style Done fill:#000,stroke:#fff,color:#fff
