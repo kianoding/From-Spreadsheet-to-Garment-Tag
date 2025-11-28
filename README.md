@@ -31,7 +31,7 @@ graph LR
     %% Adjust styling for the loop annotation (optional: makes the loop line dotted)
     linkStyle 4 stroke-dasharray: 5 5;
 ```
-This tutorial automates that entire process. What took 3-4 hours now takes 5 minutes (hopefully).
+This tutorial automates that entire process. What took 3-4 hours now takes ~15 minutes with a prepared .csv and images.
 
 ## Label Generator Overview
 This workflow creates physical bag tag labels for hanging garments in fashion archives. Our implementation uses the python-docx library, following the official documentation at https://python-docx.readthedocs.io/en/latest/. We specifically utilize three core components:
