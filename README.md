@@ -1,4 +1,4 @@
-# From Spreadsheet to Ad-Hoc-Doc 1.0
+# From Spreadsheet to Garment Tag 👗🏷️
 
 INFO664: Programming for Cultural Heritage  
 Pratt Institute, Fall 2025  
