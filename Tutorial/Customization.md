@@ -90,4 +90,9 @@ Google Colab Environment/
 
 ---
 
-Ready? Return to the [Colab notebook](https://colab.research.google.com/github/YOUR_USERNAME/FromSpreadsheettoAdHocDoc/blob/main/garment_label_generator.ipynb) and run all cells!
+  <b>Ready to generate labels?</b><br><br>
+  <a href="https://colab.research.google.com/github/YOUR_USERNAME/FromSpreadsheettoAdHocDoc/blob/main/garment_label_generator.ipynb"> Open Colab Notebook</a> • 
+  <a href="/Tutorial/Introduction.md"> Back to __Introduction__ </a>
+</p>
+
+---
