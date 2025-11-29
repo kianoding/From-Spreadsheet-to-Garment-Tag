@@ -34,17 +34,21 @@ graph LR
 This tutorial automates that entire process. What took 3-4 hours now takes ~15 minutes with a prepared .csv and images.
 
 ## Label Generator Overview
-This workflow creates physical bag tag labels for hanging garments in fashion archives. Our implementation uses the python-docx library, following the official documentation at https://python-docx.readthedocs.io/en/latest/. We specifically utilize three core components:
-- [table creation](https://python-docx.readthedocs.io/en/latest/user/tables.html) for the 2x2 label grid in common letter size paper
-- [text formatting](https://python-docx.readthedocs.io/en/latest/user/text.html) for proper hierarchy and emphasis 
-- [document structure](https://python-docx.readthedocs.io/en/latest/user/documents.html) for page management
+This workflow creates physical bag tag labels for hanging garments in fashion archives. Our implementation uses the ReportLab PDF library, following the official documentation at [**ReportLab**](https://www.reportlab.com/docs/reportlab-userguide.pdf). We specifically utilize three core components:
 
-We chose the python-docx library because it is easy to use and has clear instructions. This makes it simple for archivists with little programming experience. By following the official tutorials, we keep our code easy to update and change for different collections.
+- Canvas drawing for the 2×2 label grid on standard letter size paper (8.5" × 11")
+- Image compression using PIL/Pillow to keep file sizes manageable
+- PDF generation for universal compatibility across all printers
+
+We chose **ReportLab** because it:
+- [x] Creates PDFs directly (no Word needed)
+- [x] Works on any computer
+- [x] Produces smaller files through image compression
+- [x] Prints consistently across different systems
 
 ### Working with Different Dataset Sizes
 Before running the label generator, think about how many items you have and plan accordingly:
-- For <ins>small collections</ins> (fewer than four items): You will see empty spaces on the label sheet. This is normal. You can wait and batch more items together.
-- For <ins>medium collections</ins> (about 27 items, as in our example): Use the standard 2x2 layout. This will create multiple pages automatically. We recommended having an even number; the sample is within an odd number for example purposes.
+- For <ins>medium collections</ins> (about ~30 items, as in our example): Use the standard 2x2 layout. This will create multiple pages automatically. We recommended having an even number; the sample is within an odd number for example purposes.
 - For <ins>large collections</ins> (100 or more items): Process your data in batches of 100 items. Each batch is written to its own output file for printing. This helps avoid memory issues.
 
 This code automatically figures out how many pages are needed and handles cases where the last page isn’t complete. This means you don’t need to change any code to work with different collection sizes.
