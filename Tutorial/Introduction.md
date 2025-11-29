@@ -1,5 +1,10 @@
 # From Spreadsheet to Garment Tag
 Python Automation for Fashion Archives
+<div align="left">
+  <img src="/Tutorial/BeforeAfter.jpg" alt="Before and After: Manual vs Automated Label Creation" width="800">
+  <br>
+  <i>From hours of manual work to minutes of automation</i>
+</div>
 
 ### Introduction
 This tutorial teaches archivists to automate garment label creation using Python. We'll transform a CSV spreadsheet into professional bag tags for fashion collections, processing 30 items into a print-ready PDF document in seconds rather than hours. You need to have a Google Account to run this on Google Colab/if you have Visual Studio Code, the code should run perfectly fine.
