@@ -35,6 +35,7 @@ The CSV contains the following fields:
 
 Educational use only.
 Please review the usage rights above for complete terms.
+(LICENSE.md)[LICENSE.md]
 
 ---
 
