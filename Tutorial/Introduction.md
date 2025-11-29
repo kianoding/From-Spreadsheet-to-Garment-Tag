@@ -39,7 +39,7 @@ With proper bag tags (like those used at the V&A), you can walk down the aisle, 
 But creating these tags manually? Opening Word and typing each field for hundreds of items? That's hours of repetitive work that this tutorial eliminates.
 
 ## Sample Data
-Use the included files in the '[Resource](Resource)' Folder:
+Use the included files in the '[Resource](/Resource)' Folder:
 - `Garment_Bag_Tag_Dataset.csv` file, which contains garment records.
 - 27 image files in .jpg format
 - the .ipnyb or The Spreadsheet to Garment Tag automation code
