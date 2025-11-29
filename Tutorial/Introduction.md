@@ -2,7 +2,7 @@
 Python Automation for Fashion Archives
 
 ### Introduction
-This tutorial teaches archivists to automate garment label creation using Python. We'll transform a CSV spreadsheet into professional bag tags for fashion collections, processing 30 items into a print-ready PDF document in seconds rather than hours.
+This tutorial teaches archivists to automate garment label creation using Python. We'll transform a CSV spreadsheet into professional bag tags for fashion collections, processing 30 items into a print-ready PDF document in seconds rather than hours. You need to have a Google Account to run this on Google Colab/if you have Visual Studio Code, the code should run perfectly fine.
 Our implementation combines four essential Python libraries:
 
 - [ReportLab](https://www.reportlab.com/docs/reportlab-userguide.pdf): creates PDF documents with exact layout and formatting
@@ -38,10 +38,12 @@ flowchart LR
 With proper bag tags (like those used at the V&A), you can walk down the aisle, scan the tags, and pull the exact item immediately.
 But creating these tags manually? Opening Word and typing each field for hundreds of items? That's hours of repetitive work that this tutorial eliminates.
 
-## The Resources you need from 'Dataset' folder
-- Basic spreadsheet knowledge (Excel/Google Sheets)
-- The image set in the 'images' folder
-- Additionally, you need a Google account (for Colab)
+## Sample Data
+Use the included resources in the '[Resource](Resource)' Folder:
+- `Garment_Bag_Tag_Dataset.csv` file, which contains garment records.
+- 27 image files in .jpg format
+- Python files AKA. The Spreadsheet to Garment Tag automation code
+**Please review the [Dataset Usage Rights](Dataset/Dataset%20Usage%20%26%20Rights.md) before using any images.**
 
 > #### A Note About Images
 > **Important:** The photos on these tags are for quick identification, not publication. A phone photo taken in storage is perfectly adequate.
