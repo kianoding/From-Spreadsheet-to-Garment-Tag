@@ -35,16 +35,15 @@ This tutorial automates that entire process. What took 3-4 hours now takes ~15 m
 
 ## Label Generator Overview
 This workflow creates physical bag tag labels for hanging garments in fashion archives. Our implementation uses the ReportLab PDF library, following the official documentation at [**ReportLab**](https://www.reportlab.com/docs/reportlab-userguide.pdf). We specifically utilize three core components:
-
 - Canvas drawing for the 2×2 label grid on standard letter size paper (8.5" × 11")
 - Image compression using PIL/Pillow to keep file sizes manageable
 - PDF generation for universal compatibility across all printers
 
-We chose **ReportLab** because it:
-- [x] Creates PDFs directly (no Word needed)
-- [x] Works on any computer
-- [x] Produces smaller files through image compression
-- [x] Prints consistently across different systems
+> Why chose **ReportLab**?
+>- [x] Creates PDFs directly (no Word needed)
+>- [x] Works on any computer
+>- [x] Produces smaller files through image compression
+>- [x] Prints consistently across different systems
 
 ### Working with Different Dataset Sizes
 Before running the label generator, think about how many items you have and plan accordingly:
@@ -56,9 +55,6 @@ This code automatically figures out how many pages are needed and handles cases 
 ## 📖 Tutorial
 Start here: [Introduction](Tutorial/Introduction.md)
 To get started quickly, open Google Colab, upload the CSV file, run the script, and then download your labels.
-
-## 🎯 What This Does
-The program reads garment data from a CSV file. It creates four labels on each page. The program outputs a print-ready Word document.
 
 ## 📊 Sample Data
 Use the included dataset in `Dataset/01_Garment Bag Tag/`.This dataset consists of the `Garment_Bag_Tag_Dataset.csv` file, which contains garment records, 27 sample images, and usage rights documentation.
