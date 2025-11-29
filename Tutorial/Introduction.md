@@ -55,4 +55,4 @@ Before starting, consider your collection size:
 - **Medium (4-100 items):** Perfect for this tutorial
 - **Large (>100 items):** Process in batches
 
-Ready? Let's begin with [Chapter 1: Setup](chapter-1-setup.md)
+Ready? Let's begin with the CodingSession.
