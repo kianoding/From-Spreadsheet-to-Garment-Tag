@@ -11,9 +11,9 @@ The assets provided here are part of the project: **Pratt Institute, School of F
 > Images in this collection may be used for teaching, classroom presentations, and research purposes only. For any other use, reproduction, or publication of these images, please contact [study-collection@pratt.edu](mailto:study-collection@pratt.edu).
 
 ### Resources in this folder
-
 - **Garment_Bag_Tag_Dataset.csv** - Sample dataset with ~30 garment records
 - **27 JPG files** - Sample garment images (C2025-XXXX-LL.jpg format)
+- **From_Spreadsheet_to_Garment_Tag.ipynb** files - The automation code
 
 ### Dataset Structure
 
@@ -35,7 +35,7 @@ The CSV contains the following fields:
 
 Educational use only.
 Please review the usage rights above for complete terms.
-(LICENSE.md)[LICENSE.md]
+[LICENSE.md](LICENSE.md)
 
 ---
 
