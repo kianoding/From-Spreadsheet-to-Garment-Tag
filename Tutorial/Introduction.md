@@ -19,29 +19,27 @@ Our implementation combines four essential Python libraries:
 ##### The Problem This Solves
 Picture this: You're in a fashion archive storage room with 500 garments in protective bags on racks. A researcher needs "the purple McFadden evening dress from 1989." Without external tags, you'd have to:
 
+
+The traditional method of creating these tags > typing each row individually in Word, is painfully slow. For 30 garments, this means:
 ```mermaid
-flowchart LR
-    Start[Researcher requests item] --> Choice{Tags?}
-    
-    Choice -->|NO| Loop[Open bag → Check → Close]
-    Loop --> Loop
-    Loop --> Minutes[Minutes searching]
-    Hours --> Done[with ~5 minutes zipping the bags]
-    
-    Choice -->|YES| Scan[Scan tags]
-    Scan --> Pull[Pull one bag]
-    Pull --> Done[Done]
-    
-    style Start fill:#000,stroke:#fff,color:#fff
-    style Choice fill:#000,stroke:#fff,color:#fff
-    style Loop fill:#000,stroke:#fff,color:#fff
-    style Minutes fill:#000,stroke:#fff,color:#fff
-    style Scan fill:#000,stroke:#fff,color:#fff
-    style Pull fill:#000,stroke:#fff,color:#fff
-    style Done fill:#000,stroke:#fff,color:#fff
+graph LR
+    %% Define the Top 3 Steps (Nodes A, B, C)
+    A[1. Opening Word] --> B[2. Typing identifier, designer, description];
+    B --> C[3. Formatting each label];
+
+    %% Define the Bottom 2 Steps (Nodes D, E)
+    D[4. Finding and inserting images] --> E[5. Copying and pasting into a grid];
+
+    %% Connect the steps horizontally
+    C --> D;
+
+    %% Create the Cycle (Right to Left) with Annotation
+    E -.->|Repeat 30 times...| A;
+
+    %% Adjust styling for the loop annotation (optional: makes the loop line dotted)
+    linkStyle 4 stroke-dasharray: 5 5;
 ```
-With proper bag tags (like those used at the V&A), you can walk down the aisle, scan the tags, and pull the exact item immediately.
-But creating these tags manually? Opening Word and typing each field for hundreds of items? That's hours of repetitive work that this tutorial eliminates.
+This tutorial automates that entire process. What took 3-4 hours now takes ~15 minutes with a prepared .csv and images.
 
 ## Sample Data
 Use the included files in the '[Resource](/Resource)' Folder:
