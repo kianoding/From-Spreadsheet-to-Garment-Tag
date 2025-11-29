@@ -1,7 +1,8 @@
-#Customization & Troubleshooting Guide
+# Customization Guide
+This design and layout descisions are based on the manual 8.5x1" Letter size paper we used for the garment tag.
+Which will be easier to be cut toegther with paper timmer. If you do have different preferences, feel free to duplicate and customize your own.
 
 ##Before You Start
-
 ### Step 1: Data Preparation
 
 **Your CSV Must Have These Columns:**
@@ -20,6 +21,7 @@
 - **Naming:** Must match CSV exactly (case-sensitive)
 - **Quality:** Phone photos are fine (for ID, not publication)
 
+##### 💡 Pro Tips: Bulk format your images before hand using Adobe Bridge
 ---
 
 ##Step 2: Customization
@@ -48,7 +50,7 @@ pdf.drawCentredString(center_x, y + 15, "PERMANENT COLLECTION")
 
 ---
 
-## 🔧 Troubleshooting
+# Troubleshooting Guide
 
 ### Common Issues & Quick Fixes
 
@@ -81,9 +83,7 @@ Google Colab Environment/
 
 ---
 
-## 💡 Pro Tips
-
-- **Test First:** Always run with 4 items before processing all
+##Final Thoughts
 - **Batch Large Collections:** Process 100 items at a time
 - **Missing Images OK:** Script continues with placeholder text
 - **Multiple Runs:** Files auto-number (Label.pdf, Label_1.pdf, Label_2.pdf)
