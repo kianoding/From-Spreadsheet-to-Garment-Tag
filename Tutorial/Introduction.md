@@ -55,4 +55,9 @@ Before starting, consider your collection size:
 - **Medium (4-100 items):** Perfect for this tutorial
 - **Large (>100 items):** Process in batches
 
-Ready? Let's begin with the CodingSession.
+Ready? Let's begin by clicking on the Google Colab below;
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_ZXEGGPbl8gD7UrTQnzXIRVK0BJ6YDlJ?usp=sharing)
+
+---
+
+📝 **Note:** Read the [Customization Guide](CUSTOMIZATION.md) for data preparation tips.
