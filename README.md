@@ -41,20 +41,14 @@ The main Python libraries used for this project are:
 - [BytesIO from io](https://docs.python.org/3/library/io.html) - Handles images in memory without creating temporary files, speeding up processing
 - [os.path](https://docs.python.org/3/library/os.html) - checking with the machine to verify image files exist
 
-Why This Combination:
-ReportLab → Universal PDF output works on any printer
-PIL/Pillow → Compresses images from 5MB to 200KB without losing identification ability
-pandas → Handles CSV files just like Excel, familiar to archivists
-io.BytesIO → Processes images in memory, faster and cleaner
-os → Prevents crashes when images are missing
-
-This approach keeps output files under 10MB while processing hundreds of labels—perfect for email sharing and quick downloads.
+>### The Combination
+>**ReportLab** → Universal PDF output works on any printer. **PIL/Pillow**→ Compresses images from 5MB to 200KB without losing identification ability. **pandas** → Handles CSV files just like Excel. **io.BytesIO** → Processes images in machine memory. **os** → Prevents crashes when images are missing.
+> This approach keeps output files under 10MB while processing huge amount of data.
 
 ### Working with Different Dataset Sizes
 Before running the label generator, think about how many items you have and plan accordingly:
 - For <ins>medium collections</ins> (about ~30 items, as in our example): Use the standard 2x2 layout. This will create multiple pages automatically. We recommended having an even number; the sample is within an odd number for example purposes.
-- For <ins>large collections</ins> (100 or more items): Process your data in batches of 100 items. Each batch is written to its own output file for printing. This helps avoid memory issues.
-
+- For <ins> large collections</ins> (100 or more items): Process your data in batches of 50 items. Each batch is written to its own output file for printing.
 This code automatically figures out how many pages are needed and handles cases where the last page isn’t complete. This means you don’t need to change any code to work with different collection sizes.
 
 ## 📖 Tutorial
