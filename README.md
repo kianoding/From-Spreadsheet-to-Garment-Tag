@@ -56,7 +56,10 @@ Start here: [Introduction](Tutorial/Introduction.md)
 To get started quickly, open Google Colab, upload the CSV file, run the script, and then download your labels.
 
 ## 📊 Sample Data
-Use the included dataset in `Dataset/01_Garment Bag Tag/`.This dataset consists of the `Garment_Bag_Tag_Dataset.csv` file, which contains garment records, 27 sample images, and usage rights documentation.
+Use the included resources in the 'Resource' Folder:
+- `Garment_Bag_Tag_Dataset.csv` file, which contains garment records.
+- 27 image files in .jpg format
+- Python files AKA. The Spreadsheet to Garment Tag automation code
 
 Please review the [Dataset Usage Rights](Dataset/Dataset%20Usage%20%26%20Rights.md) before using any images.
 
