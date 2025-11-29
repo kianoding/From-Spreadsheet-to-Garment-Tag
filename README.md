@@ -34,16 +34,21 @@ graph LR
 This tutorial automates that entire process. What took 3-4 hours now takes ~15 minutes with a prepared .csv and images.
 
 ## Label Generator Overview
-This workflow creates physical bag tag labels for hanging garments in fashion archives. Our implementation uses the ReportLab PDF library, following the official documentation at [**ReportLab**](https://www.reportlab.com/docs/reportlab-userguide.pdf). We specifically utilize three core components:
-- Canvas drawing for the 2×2 label grid on standard letter size paper (8.5" × 11")
-- Image compression using PIL/Pillow to keep file sizes manageable
-- PDF generation for universal compatibility across all printers
+This workflow creates physical bag tag labels for hanging garments in fashion archives using a PDF-first approach.
+The main Python libraries used for this project are:
+- [ReportLab Canvas](https://docs.reportlab.com/reportlab/userguide/ch1_intro/#what-is-the-reportlab-pdf-library) - Draws the 2×2 label grid on letter-size pages (8.5" × 11")
+- [PIL Image Compression](https://pypi.org/project/pillow/) - Reduces photo file sizes from megabytes to kilobytes while maintaining identification quality
+- [BytesIO from io](https://docs.python.org/3/library/io.html) - Handles images in memory without creating temporary files, speeding up processing
+- [os.path](https://docs.python.org/3/library/os.html) - checking with the machine to verify image files exist
 
-> Why chose **ReportLab**?
->- [x] Creates PDFs directly (no Word needed)
->- [x] Works on any computer
->- [x] Produces smaller files through image compression
->- [x] Prints consistently across different systems
+Why This Combination:
+ReportLab → Universal PDF output works on any printer
+PIL/Pillow → Compresses images from 5MB to 200KB without losing identification ability
+pandas → Handles CSV files just like Excel, familiar to archivists
+io.BytesIO → Processes images in memory, faster and cleaner
+os → Prevents crashes when images are missing
+
+This approach keeps output files under 10MB while processing hundreds of labels—perfect for email sharing and quick downloads.
 
 ### Working with Different Dataset Sizes
 Before running the label generator, think about how many items you have and plan accordingly:
