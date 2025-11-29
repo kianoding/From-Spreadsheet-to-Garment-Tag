@@ -26,7 +26,7 @@ The CSV contains the following fields:
 - `storage_location` - Physical location in archive
 - `condition` - Conservation status
 - `measurements` - Dimensions
-- `Image_URL` - Link to corresponding image file
+- `image_url` - Link to corresponding image file
 
 > [!NOTE]
 > Please be aware that some of the information was created solely for this project. As such, it is subject to change and may be fictional; it does not represent factual information regarding any real associated names, including Mary McFadden, or the Pratt Institute School of Fashion Design.
