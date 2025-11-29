@@ -10,28 +10,29 @@ Fashion archives face unique challenges. Unlike books that display titles on spi
 ![V&A garment inventory photo: Image of a rack full of garment bags with image tag for each bag.](https://content.api.news/v3/images/bin/f4f71cf8ee82544704e98402494d9460?width=1024)
 *Image credit: Victoria and Albert Museum. From: 5 expert tips on how to store clothes. [vogue.com.au](https://www.vogue.com.au/fashion/news/5-expert-tips-on-how-to-store-clothes/image-gallery/f3009b1b0da6c9bc2ee15f09eb75c0c8?pos=1&page=2)*
 
-**About the photos:** These tags don't need museum-quality photography. A quick phone photo that shows color, silhouette, and key details is perfect. The goal is identification, not publication. If staff can look at the image and confirm "yes, this is the purple beaded dress," the tag works. Catalogs—daily operations need practical solutions.
-
-The traditional method of creating these tags > typing each row individually in Word, is painfully slow. For 30 garments, this means:
 ```mermaid
-graph LR
-    %% Define the Top 3 Steps (Nodes A, B, C)
-    A[1. Opening Word] --> B[2. Typing identifier, designer, description];
-    B --> C[3. Formatting each label];
-
-    %% Define the Bottom 2 Steps (Nodes D, E)
-    D[4. Finding and inserting images] --> E[5. Copying and pasting into a grid];
-
-    %% Connect the steps horizontally
-    C --> D;
-
-    %% Create the Cycle (Right to Left) with Annotation
-    E -.->|Repeat 30 times...| A;
-
-    %% Adjust styling for the loop annotation (optional: makes the loop line dotted)
-    linkStyle 4 stroke-dasharray: 5 5;
+flowchart LR
+    Start[Researcher requests item] --> Choice{Tags?}
+    
+    Choice -->|NO| Loop[Open bag → Check → Close]
+    Loop --> Loop
+    Loop --> Minutes[Minutes searching]
+    Hours --> Done[with ~5 minutes zipping the bags]
+    
+    Choice -->|YES| Scan[Scan tags]
+    Scan --> Pull[Pull one bag]
+    Pull --> Done[Done]
+    
+    style Start fill:#000,stroke:#fff,color:#fff
+    style Choice fill:#000,stroke:#fff,color:#fff
+    style Loop fill:#000,stroke:#fff,color:#fff
+    style Minutes fill:#000,stroke:#fff,color:#fff
+    style Scan fill:#000,stroke:#fff,color:#fff
+    style Pull fill:#000,stroke:#fff,color:#fff
+    style Done fill:#000,stroke:#fff,color:#fff
 ```
-This tutorial automates that entire process. What took 3-4 hours now takes ~15 minutes with a prepared .csv and images.
+With proper bag tags (like those used at the V&A), you can walk down the aisle, scan the tags, and pull the exact item immediately.
+But creating these tags manually? Opening Word and typing each field for hundreds of items? That's hours of repetitive work that this tutorial eliminates.
 
 ## Label Generator Overview
 This workflow creates physical bag tag labels for hanging garments in fashion archives using a PDF-first approach.
