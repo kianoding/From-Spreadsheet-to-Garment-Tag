@@ -1,7 +1,7 @@
 # From Spreadsheet to Garment Tag
 Python Automation for Fashion Archives
 <div align="left">
-  <img src="/Tutorial/BeforeAfter.jpg" alt="Before and After: Manual vs Automated Label Creation" width="800">
+  <img src="/Tutorial/BeforeAfter.jpg" alt="Before and After: Manual vs Automated Label Creation with no paper errors" width="800">
   <br>
   <i>From hours of manual work to minutes of automation</i>
 </div>
