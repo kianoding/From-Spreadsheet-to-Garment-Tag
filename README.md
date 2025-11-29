@@ -51,19 +51,10 @@ Before running the label generator, think about how many items you have and plan
 - For <ins> large collections</ins> (100 or more items): Process your data in batches of 50 items. Each batch is written to its own output file for printing.
 This code automatically figures out how many pages are needed and handles cases where the last page isn’t complete. This means you don’t need to change any code to work with different collection sizes.
 
-## 📖 Tutorial
+## Tutorial
 Start here: [Introduction](Tutorial/Introduction.md)
-To get started quickly, open Google Colab, upload the CSV file, run the script, and then download your labels.
 
-## 📊 Sample Data
-Use the included resources in the '[Resource](Resource)' Folder:
-- `Garment_Bag_Tag_Dataset.csv` file, which contains garment records.
-- 27 image files in .jpg format
-- Python files AKA. The Spreadsheet to Garment Tag automation code
-
-Please review the [Dataset Usage Rights](Dataset/Dataset%20Usage%20%26%20Rights.md) before using any images.
-
-## 📝 License
+## License
 ![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
