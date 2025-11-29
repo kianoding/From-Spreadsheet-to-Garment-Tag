@@ -56,7 +56,7 @@ Before starting, consider your collection size:
 - **Large (>100 items):** Process in batches
 
 --
-### Ready? Let's begin by opening the Google Colab below in a new tab;
+### Ready? Let's begin by opening the Google Colab below in a new tab.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_ZXEGGPbl8gD7UrTQnzXIRVK0BJ6YDlJ?usp=sharing)
 
-📝 **Note:** Read the [Customization Guide](CUSTOMIZATION.md) for data preparation tips.
+📝 **Note:** If you are ready to make your own? Read the [Customization Guide](Customization.md) for data preparation tips.
