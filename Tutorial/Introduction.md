@@ -1,13 +1,17 @@
-# From Spreadsheet to Label Generator
+# From Spreadsheet to Garment Tag
 
 Python Automation for Fashion Archives
 
 ### Introduction
 This tutorial teaches archivists to automate garment label creation using Python. We'll transform a CSV spreadsheet into professional bag tags for fashion collections, processing 30 items into a print-ready PDF document in seconds rather than hours.
-Our implementation builds on the [**ReportLab library**](https://www.reportlab.com/docs/reportlab-userguide.pdf), specifically utilizing canvas drawing, image compression, and PDF generation features. This approach makes the code accessible to archivists learning Python while maintaining professional output quality under a 10MB file size.
+Our implementation combines four essential Python libraries:
+
+-[ReportLab](https://www.reportlab.com/docs/reportlab-userguide.pdf): creates PDF documents with exact layout and formatting
+-[PIL/Pillow](https://pillow.readthedocs.io/): handles image processing and compression to keep file sizes under 10MB
+-[pandas](https://pandas.pydata.org/): processes your CSV
+-[os](https://docs.python.org/3/library/os.html): it's like terminal on your machine.
 
 ##### The Problem This Solves
-
 Picture this: You're in a fashion archive storage room with 500 garments in protective bags on racks. A researcher needs "the purple McFadden evening dress from 1989." Without external tags, you'd have to:
 
 ```mermaid
@@ -34,15 +38,10 @@ flowchart LR
 With proper bag tags (like those used at the V&A), you can walk down the aisle, scan the tags, and pull the exact item immediately.
 But creating these tags manually? Opening Word and typing each field for hundreds of items? That's hours of repetitive work that this tutorial eliminates.
 
-## What You'll Learn
-Creating labels manually is time-consuming and error-prone. For a 27-item collection:
-- **Manual:** 3-4 hours of copying, formatting, and printing
-- **Automated:** 5 minutes with Python
-
-## Prerequisites
+## The Resources you need from 'Dataset' folder
 - Basic spreadsheet knowledge (Excel/Google Sheets)
 - The image set in the 'images' folder
-- Google account (for Colab)
+- Additionally, you need a Google account (for Colab)
 
 > #### A Note About Images
 > **Important:** The photos on these tags are for quick identification, not publication. A phone photo taken in storage is perfectly adequate.
