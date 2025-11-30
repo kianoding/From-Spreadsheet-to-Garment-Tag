@@ -1,6 +1,6 @@
 # Customization Guide
-This design and layout descisions are based on the manual 8.5x1" Letter size paper we used for the garment tag.
-Which will be easier to be cut toegther with paper timmer. If you do have different preferences, feel free to duplicate and customize your own.
+These design and layout decisions are based on the manual 8.5x1" letter-size paper we used for the garment tag.
+Which will be easier to cut together with paper trimmer. If you do have different preferences, feel free to duplicate and customize your own.
 
 ##Before You Start
 ### Step 1: Data Preparation
@@ -91,7 +91,7 @@ Google Colab Environment/
 ---
 
   <b>Ready to generate labels?</b><br><br>
-  <a href="[https://colab.research.google.com/github/YOUR_USERNAME/FromSpreadsheettoAdHocDoc/blob/main/garment_label_generator.ipynb](https://colab.research.google.com/drive/1_ZXEGGPbl8gD7UrTQnzXIRVK0BJ6YDlJ?usp=sharing)"> Open Colab Notebook</a> • 
+  <a href="https://colab.research.google.com/drive/1_ZXEGGPbl8gD7UrTQnzXIRVK0BJ6YDlJ?usp=sharing"> Open Colab Notebook</a> • 
   <a href="/Tutorial/Introduction.md"> Back to __Introduction__ </a>
 </p>
 
