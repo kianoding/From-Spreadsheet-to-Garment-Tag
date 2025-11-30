@@ -1,23 +1,17 @@
 # From Spreadsheet to Garment Tag
 Python Automation for Fashion Archives
+
+
+### Introduction
+This tutorial teaches archivists to automate garment label creation using Python. We'll transform a CSV spreadsheet into professional bag tags for fashion collections, processing 30 items into a print-ready PDF document in seconds rather than hours. You need to have a Google Account to run this on Google Colab/if you have Visual Studio Code, the code should run perfectly fine.
+
 <div align="left">
   <img src="/Tutorial/BeforeAfter.jpg" alt="Before and After: Manual vs Automated Label Creation with no paper errors" width="800">
   <br>
   <i>From hours of manual work to minutes of automation</i>
 </div>
 
-### Introduction
-This tutorial teaches archivists to automate garment label creation using Python. We'll transform a CSV spreadsheet into professional bag tags for fashion collections, processing 30 items into a print-ready PDF document in seconds rather than hours. You need to have a Google Account to run this on Google Colab/if you have Visual Studio Code, the code should run perfectly fine.
-
-Our implementation combines four essential Python libraries:
-
-- [ReportLab](https://www.reportlab.com/docs/reportlab-userguide.pdf): creates PDF documents with exact layout and formatting
-- [PIL/Pillow](https://pillow.readthedocs.io/): handles image processing and compression to keep file sizes under 10MB
-- [pandas](https://pandas.pydata.org/): processes your CSV
-- [os](https://docs.python.org/3/library/os.html): it's like terminal on your machine.
-- [io](https://docs.python.org/3/library/io.html): deal with image without creating new files
-
-##### The Problem This Solves
+##### The Issue
 Picture this: You're in a fashion archive storage room with 500 garments in protective bags on racks. A researcher needs "the purple McFadden evening dress from 1989." Without external tags, you'd have to:
 
 
@@ -58,6 +52,14 @@ Use the included files in the '[Resource](/Resource)' Folder:
 Before starting, consider your collection size:
 - **Medium (4-100 items):** Perfect for this tutorial
 - **Large (>100 items):** Process in batches
+
+
+Our implementation combines four essential Python libraries:
+- [ReportLab](https://www.reportlab.com/docs/reportlab-userguide.pdf): creates PDF documents with exact layout and formatting
+- [PIL/Pillow](https://pillow.readthedocs.io/): handles image processing and compression to keep file sizes under 10MB
+- [pandas](https://pandas.pydata.org/): processes your CSV
+- [os](https://docs.python.org/3/library/os.html): it's like terminal on your machine.
+- [io](https://docs.python.org/3/library/io.html): deal with image without creating new files
 
 --
 ### Ready? Let's begin by opening the Google Colab below in a new tab.
