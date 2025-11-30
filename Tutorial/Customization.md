@@ -91,7 +91,7 @@ Google Colab Environment/
 ---
 
   <b>Ready to generate labels?</b><br><br>
-  <a href="https://colab.research.google.com/github/YOUR_USERNAME/FromSpreadsheettoAdHocDoc/blob/main/garment_label_generator.ipynb"> Open Colab Notebook</a> • 
+  <a href="[https://colab.research.google.com/github/YOUR_USERNAME/FromSpreadsheettoAdHocDoc/blob/main/garment_label_generator.ipynb](https://colab.research.google.com/drive/1_ZXEGGPbl8gD7UrTQnzXIRVK0BJ6YDlJ?usp=sharing)"> Open Colab Notebook</a> • 
   <a href="/Tutorial/Introduction.md"> Back to __Introduction__ </a>
 </p>
 
