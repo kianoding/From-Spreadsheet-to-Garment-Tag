@@ -1,8 +1,9 @@
 # Customization Guide
-These design and layout decisions are based on the manual 8.5x1" letter-size paper we used for the garment tag.
-Which will be easier to cut together with paper trimmer. If you do have different preferences, feel free to duplicate and customize your own.
+These design and layout decisions are based on the manual 8.5x1" letter-size paper we used for the garment tag,
+which will then be easier to cut together with a paper trimmer.
+If you have different preferences, you can duplicate the code and customize it yourself.
 
-##Before You Start
+## Before You Start
 ### Step 1: Data Preparation
 
 **Your CSV Must Have These Columns:**
@@ -21,11 +22,11 @@ Which will be easier to cut together with paper trimmer. If you do have differen
 - **Naming:** Must match CSV exactly (case-sensitive)
 - **Quality:** Phone photos are fine (for ID, not publication)
 
-##### 💡 Pro Tips: Bulk format your images before hand using Adobe Bridge
+##### 💡 Pro Tips: Bulk format your images beforehand using Adobe Bridge
 ---
 
-##Step 2: Customization
-In the Chapter 3 - Step 1.
+## Step 2: Customization
+In the Google Colab, navigate to the code block on ```Chapter 3 - Step 1```.
 ### Change Your Institution Name:
 ```python
 institution = "Pratt"  # ← Change to your institution
@@ -36,7 +37,7 @@ institution = "Brooklyn_Museum"
 institution = "FIT"
 ```
 
-In the Chapter 3 - Step 1, Code Line 84.
+In Chapter 3 - Step 1, Code Line 84.
 ### Adjust Footer Text (Optional):
 ```python
 # Find these lines:
@@ -83,7 +84,7 @@ Google Colab Environment/
 
 ---
 
-##Final Thoughts
+## Final Thoughts
 - **Batch Large Collections:** Process 100 items at a time
 - **Missing Images OK:** Script continues with placeholder text
 - **Multiple Runs:** Files auto-number (Label.pdf, Label_1.pdf, Label_2.pdf)
