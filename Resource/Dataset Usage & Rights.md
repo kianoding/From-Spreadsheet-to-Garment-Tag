@@ -1,6 +1,6 @@
 # Pratt Institute School of Fashion Design: Study Collection
 
-![License](https://img.shields.io/badge/license-Educational%20Use%20Only-yellow)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ![Year](https://img.shields.io/badge/Collection-2025-green)
 
 ## Dataset Usage and Rights
