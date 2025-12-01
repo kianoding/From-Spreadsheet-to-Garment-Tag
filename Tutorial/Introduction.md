@@ -47,8 +47,8 @@ This tutorial automates the entire process and reduces paper waste from the marg
 ## Sample Data
 Use the included files in the '[Resource](/Resource)' Folder:
 - `Garment_Bag_Tag_Dataset.csv` file, which contains garment records.
-- 27 image files in .jpg format
-- the .ipnyb or The Spreadsheet to Garment Tag automation code
+- `Image Set.zip` with 27 image files in .jpg format
+- the `Google Colab` or The Spreadsheet to Garment Tag automation code
 
 > [!IMPORTANT]
 **Please review the [Dataset Usage Rights](Dataset/Dataset%20Usage%20%26%20Rights.md) before using any images.**
