@@ -1,6 +1,15 @@
 # From Spreadsheet to Garment Tag
 Python Automation for Fashion Archives
 
+> [!CAUTION]
+> **DISCLAIMER OF FACTUAL ACCURACY**
+> 
+> The dataset provided in this repository is designed purely for **demonstration and practice coding purposes**. While the general scenario and structure may be inspired by real-world experiences of the author, all identifying information, specific details, names, entities, and events have been significantly modified, abstracted, and fictionalized.
+> 
+> The data does not represent an exact factual account of any specific case, person, or entity. **It has been altered solely to protect privacy and provide a generalized, abstract scenario for educational use.**
+> 
+> Users should not draw real-world conclusions, apply this data as factual information, or use it for any purpose other than practicing code. We disclaim all liability for any reliance on this information as fact.
+
 
 ### Introduction
 This tutorial teaches archivists to automate garment label creation using Python. We'll transform a CSV spreadsheet into professional bag tags for fashion collections, processing 30 items into a print-ready PDF document in seconds rather than hours. You need to have a Google Account to run this on Google Colab/if you have Visual Studio Code, the code should run perfectly fine.
@@ -13,7 +22,6 @@ This tutorial teaches archivists to automate garment label creation using Python
 
 ##### The Issue
 Picture this: You're in a fashion archive storage room with 500 garments in protective bags on racks. A researcher needs "the purple McFadden evening dress from 1989." Without external tags, you'd have to:
-
 
 The traditional method of creating these tags > typing each row individually in Word, is painfully slow. For 30 garments, this means:
 ```mermaid
