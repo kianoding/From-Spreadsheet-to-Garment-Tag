@@ -51,8 +51,7 @@ Use the included files in the '[Resource](/Resource)' Folder:
 - the `Google Colab` or The Spreadsheet to Garment Tag automation code
 
 > [!IMPORTANT]
-**Please review the [Dataset Usage Rights](Resource/Dataset_Usage_and_Rights.md) before using any images.**
-> This one without the tutorial [Dataset Usage and Rights](/Resource/Dataset_Usage_and_Rights.md)
+**Please review the [Dataset Usage Rights](/Resource/Dataset_Usage_and_Rights.md) before using any images.**
 
 > #### A Note About Images
 > **Important:** The photos on these tags are for quick identification, not publication. A phone photo taken in storage is perfectly adequate.
