@@ -42,6 +42,8 @@ graph LR
     %% Adjust styling for the loop annotation (optional: makes the loop line dotted)
     linkStyle 4 stroke-dasharray: 5 5;
 ```
+_This chart was made with [mermaid chart](https://github.com/mermaid-js/mermaid)_
+
 This tutorial automates the entire process and reduces paper waste from the margin of error we might have. What took 3-4 hours now takes ~15 minutes with a prepared .csv and images.
 
 ## Sample Data
