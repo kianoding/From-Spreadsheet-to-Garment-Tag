@@ -31,6 +31,8 @@ flowchart LR
     style Pull fill:#000,stroke:#fff,color:#fff
     style Done fill:#000,stroke:#fff,color:#fff
 ```
+_This chart was made with [mermaid chart](https://github.com/mermaid-js/mermaid)_
+
 With proper bag tags (like those used at the V&A), you can walk down the aisle, scan the tags, and pull the exact item immediately.
 But creating these tags manually? Opening Word and typing each field for hundreds of items? That's hours of repetitive work that this tutorial eliminates.
 
